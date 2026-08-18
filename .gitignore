@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+*.env
+emails.env
+
+# YOLO training outputs
+runs/
+yoloweights/
+wandb/
+*.cache
+
+# Large datasets / archives
+*.zip
+*.rar
+*.7z
+
+# Large model files
+*.pth
+*.onnx
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
