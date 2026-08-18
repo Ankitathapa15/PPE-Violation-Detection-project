@@ -17,8 +17,8 @@ MODEL_PATH = "yoloweights/best.pt"
 SNAPSHOT_DIR = "snapshots"
 
 EMAIL_SENDER = "ankita.thapa1519@gmail.com"
-EMAIL_PASSWORD = "kgwk jxex xkxp bhaz"   # Gmail App password
-EMAIL_RECEIVER = "anshika.thapa1904@gmail.com"
+EMAIL_PASSWORD = ""   # Gmail App password
+EMAIL_RECEIVER = ""
 
 os.makedirs(SNAPSHOT_DIR, exist_ok=True)
 
