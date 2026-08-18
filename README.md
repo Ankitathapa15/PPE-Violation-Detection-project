@@ -1,43 +1,62 @@
 # PPE Violation Detection
 
-A computer vision-based system for detecting Personal Protective Equipment (PPE) violations from images and video using YOLO.
+## 📌 Overview
+Short explanation of the project.
 
-## Overview
-
-This project uses YOLO-based object detection and OpenCV for analyzing images and video streams and identifying PPE-related violations.
-
-## Features
-
-- PPE detection using YOLO
+## 🎯 Key Features
+- PPE violation detection
+- YOLO-based object detection
 - Video analysis
-- Object detection
-- Violation identification
-- OpenCV-based image/video processing
+- Email alerts
 - Streamlit interface
-- Docker support
+- Docker deployment
 
-## Technologies
+## 🛠️ Tech Stack
+Python | YOLO | OpenCV | Streamlit | Docker
 
-- Python
-- YOLO
-- OpenCV
-- NumPy
-- Streamlit
-- Docker
- 
-## Dataset:Roboflow PPE Detection dataset
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
-PPE-Detection/
-├── app.py
-├── train.py
-├── dockerfile
-├── requirements.txt
-├── yolo11n.pt
-├── violation_output.jpg
-├── snapshots/
-├── README.md
-└── .gitignore
+PPE-Violation-Detection/
+│
+├── 📄 app.py                    # Main Streamlit application
+├── 📄 train.py                  # YOLO model training script
+├── 📄 requirements.txt          # Python dependencies
+├── 📄 dockerfile                # Docker configuration
+├── 📄 yolo11n.pt                # YOLO base model
+├── 📄 violation_output.jpg      # Sample detection output
+│
+├── 📁 Images/                   # Project screenshots
+│   ├── 🖼️ Email Alert.png
+│   ├── 🖼️ Project UI 1.png
+│   ├── 🖼️ Project UI 2.png
+│   ├── 🖼️ Project UI 3.png
+│   └── 🖼️ Project on Docker.png
+│
+└── 📄 README.md                 # Project documentation
+```
+
+## 🖥️ Project Screenshots
+
+### Application Interface
+![Project UI 1](Images/Project%20UI%201.png)
+
+### Detection Results
+![Project UI 2](Images/Project%20UI%202.png)
+
+![Project UI 3](Images/Project%20UI%203.png)
+
+### Email Alert System
+![Email Alert](Images/Email%20Alert.png)
+
+### Docker Deployment
+![Docker](Images/Project%20on%20Docker.png)
+
+## ⚙️ How It Works
+1. Input image/video
+2. Frames are processed using OpenCV
+3. YOLO detects PPE-related objects
+4. Violations are identified
+5. Results are displayed
+6. Email alerts are generated when required
 
